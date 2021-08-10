@@ -1,3 +1,13 @@
 {
-    "MODULE.hello": "hello"
+	"mouses-library": {
+        "setting": {
+            "logLevel.name": "Show Log Level in Console",
+            "logLevel.hint": "Only show log levels greater to or equal to this level",
+
+            "logLevel.all": "All",
+            "logLevel.info": "Info",
+            "logLevel.warn": "Warning",
+            "logLevel.error": "Error"
+        }
+    }
 }

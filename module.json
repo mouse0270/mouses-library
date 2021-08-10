@@ -1,30 +1,28 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "mouses-library",
+  "title": "Mouses Library",
+  "description": "This is a library used to manage repeat functions in module development in FoundryVTT.",
   "version": "This is auto replaced",
   "library": "false",
-  "manifestPlusVersion": "1.0.0",
+  "manifestPlusVersion": "0.0.1",
   "minimumCoreVersion": "0.8.8",
   "compatibleCoreVersion": "0.8.8",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Mouse0270",
+      "url": "https://github.com/mouse0270/module-credits",
+      "discord": "Mouse0270#0270"
     }
   ],
-  "dependencies": [
-
-  ],
-  "conflicts": [
-    
-  ],
-  "esmodules": [
-    "/scripts/module.js"
-  ],
+  "dependencies": [ ],
+  "conflicts": [ ],
+  "esmodules": [ ],
   "scripts": [
-    "/scripts/lib/lib.js"
+    "/scripts/lib/prototypes.js",
+    "/scripts/lib/purify.min.js",
+    "/scripts/lib/marked.min.js",
+    "/scripts/module.js",
+    "/scripts/hooks.js"
   ],
   "styles": [
     "/styles/module.css"
