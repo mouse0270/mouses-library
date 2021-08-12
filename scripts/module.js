@@ -28,14 +28,14 @@ class MousesLib {
 
 		// Add Log Level
 		this.setting('register', 'logLevel', {
-			name: game.i18n.localize(`mouses-library.setting.logLevel.name`),
-			hint: game.i18n.localize(`mouses-library.setting.logLevel.hint`),
+			name: game.i18n.localize(`mouses-library.settings.logLevel.name`),
+			hint: game.i18n.localize(`mouses-library.settings.logLevel.hint`),
 			type: String,
 			choices: {
-				'0': game.i18n.localize('mouses-library.setting.logLevel.all'),
-				'1': game.i18n.localize('mouses-library.setting.logLevel.info'),
-				'2': game.i18n.localize('mouses-library.setting.logLevel.warn'),
-				'3': game.i18n.localize('mouses-library.setting.logLevel.error')
+				'0': game.i18n.localize('mouses-library.settings.logLevel.all'),
+				'1': game.i18n.localize('mouses-library.settings.logLevel.info'),
+				'2': game.i18n.localize('mouses-library.settings.logLevel.warn'),
+				'3': game.i18n.localize('mouses-library.settings.logLevel.error')
 			},
 			default: '2',
 			onChange: value => console.log('Log Level changed to ', value)

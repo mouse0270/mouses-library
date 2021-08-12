@@ -1,2 +1,5 @@
-# Version 0.0.1 - Beta Release
-This is the beta release of Mouses Library. This Library is used for repeat functions used in all of my other libraries
+# Version 0.0.1 - Initial Release
+This is the release of Mouses Library. This Library is used for repeat functions used in all of my other libraries
+
+This library provides a built in logging system and module management. It also adds helpful handlebarhelpers such as markdown which will take a string containing `markdown` and `html` and parse it. The other helper `is` which just checks to see if something is something else.
+

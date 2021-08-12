@@ -1,13 +1,16 @@
 {
 	"mouses-library": {
-        "setting": {
+        "settings": {
             "logLevel.name": "Show Log Level in Console",
             "logLevel.hint": "Only show log levels greater to or equal to this level",
 
             "logLevel.all": "All",
             "logLevel.info": "Info",
             "logLevel.warn": "Warning",
-            "logLevel.error": "Error"
+            "logLevel.error": "Error",
+
+			"allowHTMLforAllSettings.name": "Allow HTML Parse to parse all Module Settings",
+			"allowHTMLforAllSettings.hint": "If this is enabled, Mouses Libary will parse all Module Settings, titles and notes/hints and format them."
         }
     }
 }
